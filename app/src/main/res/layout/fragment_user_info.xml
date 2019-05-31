@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        tools:background="@mipmap/mine_bg"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            style="@style/MineTableStyle"
+            android:layout_marginTop="33dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/BaseTextStyle"
+                android:text="头像"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                />
+
+        <com.ipd.jumpbox.jumpboxlibrary.widget.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/avatar"
+                app:border_width1="2dp"
+                app:border_color1="#FFBD55"
+                />
+
+        <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/MineTableStyle"
+            android:layout_marginTop="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/BaseTextStyle"
+                android:text="昵称"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                />
+
+        <TextView
+                android:textSize="13sp"
+                style="@style/BaseTextStyle"
+                android:text="叫我三三顺"
+                android:textColor="@color/white"
+                />
+
+        <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/MineTableStyle"
+            android:layout_marginTop="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/BaseTextStyle"
+                android:text="手机号"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                />
+
+        <TextView
+                android:textSize="13sp"
+                style="@style/BaseTextStyle"
+                android:text="15861743847"
+                android:textColor="@color/white"
+                />
+
+        <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/MineTableStyle"
+            android:layout_marginTop="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/BaseTextStyle"
+                android:text="性别"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                />
+
+        <TextView
+                android:textSize="13sp"
+                style="@style/BaseTextStyle"
+                android:text="选择"
+                android:textColor="@color/white"
+                />
+
+        <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

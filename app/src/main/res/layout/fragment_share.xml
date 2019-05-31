@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        tools:background="@mipmap/mine_bg"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:background="@mipmap/erweima_bg"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:src="@mipmap/erweima"/>
+
+        <TextView
+                android:layout_marginTop="15dp"
+                style="@style/BaseTextStyle"
+                android:text="分享二维码给好友"
+                android:textColor="@color/white"
+                android:textSize="10sp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_share_now"
+            android:layout_marginTop="18dp"
+            android:text="即刻分享"
+            style="@style/BaseTextStyle"
+            android:textColor="#1E1948"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/share_now"/>
+
+
+</LinearLayout>

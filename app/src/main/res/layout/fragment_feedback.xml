@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        tools:background="@mipmap/mine_bg"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:padding="20dp"
+            android:hint="请输入您反馈的详细内容（500字以内）"
+            android:textColorHint="#CCCCCC"
+            android:textColor="@color/white"
+            android:layout_height="180dp"
+            style="@style/MineTableStyle"
+            android:gravity="top|left"
+            android:textSize="12sp"
+            android:layout_marginTop="33dp">
+    </EditText>
+
+    <ImageView
+            android:id="@+id/iv_commit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_commit"/>
+
+</LinearLayout>
